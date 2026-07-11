@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: based-pool-dashboard_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: basedminingco/pool-dashboard:1.0.0
+    restart: on-failure
+    stop_grace_period: 1m

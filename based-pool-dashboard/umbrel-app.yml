@@ -1,0 +1,47 @@
+manifestVersion: 1
+id: based-pool-dashboard
+category: bitcoin
+name: BASED Pool Dashboard
+version: "1.0.0"
+tagline: Solo mine Bitcoin with a 1 BTC finder bonus and shared block rewards
+description: >-
+  BASED Pool Dashboard is the control panel and setup guide for the BASED Mining
+  pool, a solo Bitcoin pool with a 0% fee.
+
+
+  The pool mechanic: when a miner finds a block, that finder receives 1 BTC. The
+  rest of the reward, about 2.125 BTC plus transaction fees, is split among all
+  active miners in proportion to the shares they submitted.
+
+
+  Dashboard: live pool hashrate, workers online, accepted shares, best share,
+  pool uptime, and blocks found. Stats refresh every 30 seconds.
+
+
+  Connect wizard: enter your Bitcoin payout address and a worker name to generate
+  ready to paste stratum settings for three ports. Port 3333 for standard home
+  miners such as Bitaxe and NerdQaxe. Port 3335 for low difficulty lottery miners
+  such as NerdMiner and ESP32 devices. Port 3336 for high difficulty rented
+  hashpower such as NiceHash and MRR.
+
+
+  My Stats: enter a Bitcoin address to view that address hashrate, accepted
+  shares, best share, and per worker breakdown.
+
+
+  This app is read-only. It connects to the public BASED Pool API and never
+  changes anything on the pool. Your mining hardware connects directly to
+  pool.basedmining.xyz. This app is the dashboard and setup guide.
+developer: BASED Mining Co
+website: https://basedmining.xyz
+dependencies: []
+repo: https://github.com/GeObts/basedmining-umbrel-store
+support: https://basedmining.xyz
+port: 8388
+gallery: []
+releaseNotes: ""
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Goya
+submission: https://github.com/GeObts/basedmining-umbrel-store
