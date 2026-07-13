@@ -3,7 +3,7 @@ id: based-pool-dashboard
 category: bitcoin
 name: BASED Pool Dashboard
 icon: https://raw.githubusercontent.com/GeObts/basedmining-umbrel-store/main/based-pool-dashboard/icon.png
-version: "1.0.1"
+version: "1.2.0"
 tagline: Solo mine Bitcoin with a 1 BTC finder bonus and shared block rewards
 description: >-
   BASED Pool Dashboard is the control panel and setup guide for the BASED Mining
@@ -26,6 +26,12 @@ description: >-
   hashpower such as NiceHash and MRR.
 
 
+  Miner auto-discovery: scan your local network for Bitaxe family AxeOS miners and
+  switch a device to BASED Pool in one click, or add a device by IP. The app shows
+  the exact stratum settings before writing anything, and it never changes a
+  device without your explicit per device confirmation.
+
+
   My Stats: enter a Bitcoin address to view that address hashrate, accepted
   shares, best share, and per worker breakdown.
 
@@ -41,9 +47,12 @@ support: https://basedmining.xyz
 port: 8388
 gallery: []
 releaseNotes: >-
-  1.0.1 — Adds the BASED logo to the dashboard header and ships a multi-arch
-  image (linux/amd64 and linux/arm64) so the app runs on both Intel/AMD and
-  ARM Umbrel devices.
+  1.2.0: A full dark visual overhaul that matches basedmining.xyz: near black
+  background, Bitcoin orange accents, a redesigned pool hashrate gauge, and a
+  cleaner header brand. Adds miner auto-discovery on the Connect page: scan your
+  local network for Bitaxe family AxeOS miners and switch a device to BASED Pool
+  in one click, or add a device by IP. The app shows the exact settings before
+  writing and never changes a device without your explicit confirmation.
 path: ""
 defaultUsername: ""
 defaultPassword: ""
