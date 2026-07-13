@@ -8,6 +8,6 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: basedminingco/pool-dashboard:1.0.0
+    image: basedminingco/pool-dashboard:1.0.1
     restart: on-failure
     stop_grace_period: 1m

@@ -3,7 +3,7 @@ id: based-pool-dashboard
 category: bitcoin
 name: BASED Pool Dashboard
 icon: https://raw.githubusercontent.com/GeObts/basedmining-umbrel-store/main/based-pool-dashboard/icon.png
-version: "1.0.0"
+version: "1.0.1"
 tagline: Solo mine Bitcoin with a 1 BTC finder bonus and shared block rewards
 description: >-
   BASED Pool Dashboard is the control panel and setup guide for the BASED Mining
@@ -40,7 +40,10 @@ repo: https://github.com/GeObts/basedmining-umbrel-store
 support: https://basedmining.xyz
 port: 8388
 gallery: []
-releaseNotes: ""
+releaseNotes: >-
+  1.0.1 — Adds the BASED logo to the dashboard header and ships a multi-arch
+  image (linux/amd64 and linux/arm64) so the app runs on both Intel/AMD and
+  ARM Umbrel devices.
 path: ""
 defaultUsername: ""
 defaultPassword: ""
